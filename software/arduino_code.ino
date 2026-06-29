@@ -202,7 +202,11 @@ void showSystemLocked(int secondsLeft) {
 
 void showIdlePrompt() {
   lcdPrint("  Access Control", "  Enter Code:   ");
-}==============================
+}
+
+// ================================================================
+// CHANGE PASSWORD MODULE
+// ================================================================
 void enterChangePwdMode() {
   sysState = STATE_CHANGE_PWD;
   cpwStep  = CPW_VERIFY_OLD;
